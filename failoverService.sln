@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "failoverService", "failoverService\failoverService.csproj", "{4F6B7ED4-51CE-4129-A3D4-BD0D856ACEDD}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "failoverService_setup", "failoverService_setup\failoverService_setup.vdproj", "{C8C3CF69-26CE-4F30-9DDB-262D2454E4DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F6B7ED4-51CE-4129-A3D4-BD0D856ACEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F6B7ED4-51CE-4129-A3D4-BD0D856ACEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F6B7ED4-51CE-4129-A3D4-BD0D856ACEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F6B7ED4-51CE-4129-A3D4-BD0D856ACEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8C3CF69-26CE-4F30-9DDB-262D2454E4DE}.Debug|Any CPU.ActiveCfg = Debug
+		{C8C3CF69-26CE-4F30-9DDB-262D2454E4DE}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B86E0F51-020C-4D3E-BBE9-10E601A04988}
+	EndGlobalSection
+EndGlobal
